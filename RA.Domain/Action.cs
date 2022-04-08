@@ -9,10 +9,12 @@ namespace RA.Domain
     public class Action
     {
         public int Id { get; set; }
-        public string ActionType { get; set; }
+        public string ActionName { get; set; }
         public Employer Employer { get; set; }
         public DateTime Date { get; set; }
         public Subject Subject { get; set; }
         public Product? Product { get; set; }
+        public string? ActionLog { get; set; }
+
     }
 }

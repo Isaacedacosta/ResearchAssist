@@ -10,8 +10,8 @@ namespace RA.Domain
     {
         public int Id { get; set; }
         public string Type { get; set; }
-        public int Age { get; set; }
-        public bool Status { get; set; }
+        public int? Age { get; set; }
+        public bool? Status { get; set; }
         public string? Condition { get; set; }
     }
 }
