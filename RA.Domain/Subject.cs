@@ -8,7 +8,7 @@ namespace RA.Domain
 {
     public class Subject
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public string Type { get; set; }
         public int? Age { get; set; }
         public bool? Status { get; set; }

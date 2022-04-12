@@ -8,7 +8,7 @@ namespace RA.Domain
 {
     public class ActionLog
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public int ActionId { get; set; }
         public string Register { get; set; }
     }
